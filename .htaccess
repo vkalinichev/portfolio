@@ -1,0 +1,5 @@
+<FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf|svg|js|css|pdf|woff)$">
+  Header set Cache-Control "max-age=2592000, public"
+</FilesMatch>
+
+ErrorDocument 404 http://wrumly.ru/
